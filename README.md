@@ -1,7 +1,7 @@
 # codingPractice3
 ## Memory Leak
 
-#### 分別以 delegate 及 closure 驗證什麼情況會造成 Retain Cycle (memory leak)，以及該如何解決
+#### 分別以 delegate 及 closure 驗證什麼情況會造成 Retain Cycle (Memory Leak)，以及該如何解決
 
 #### 運用的觀念：
       
