@@ -28,7 +28,7 @@ class NextViewController: UIViewController, SelectionViewDelegate {
         
         fish = Fish()
         
-        fish?.closure = { [weak self] in     // 沒有 weak self/ unowned self 的情況，會 memory leak
+        fish?.closure = { [weak self]  in   // 沒有 weak self/ unowned self 的情況，會 memory leak
 
             self?.callFish()
         }
