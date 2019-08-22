@@ -25,7 +25,7 @@
      
 4. 在 **NextViewController** 中，有：
 
-   * **SelectionView** 的 instance， **NextViewController** addSubView 此 instance 
+   * 一個 **SelectionView** 的 instance， **NextViewController** addSubView 此 instance 
    
    * 一個 **Fish** 的 instance 叫 fish，在 **NextViewController** 執行 **Fish** 的 closure，
    
